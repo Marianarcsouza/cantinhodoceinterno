@@ -387,7 +387,7 @@ function HomeUsageTab({ ctx: e }) {
   );
 }
 function defaultQuote() {
-  return { clienteNome: "", data: Hd(), itens: [], desconto: null, formaPagamento: "", observacoes: "" };
+  return { clienteNome: "", data: Hd(), itens: [], desconto: null, formaPagamento: "", observacoes: "Forma de pagamento:\n50% do valor total no ato da encomenda e 50% no ato do levantamento." };
 }
 function downloadQuotePdf(quote, products, settings) {
   if (!window.jspdf) { alert("N\xE3o foi poss\xEDvel carregar o gerador de PDF. Verifica a liga\xE7\xE3o \xE0 internet e tenta novamente."); return; }
